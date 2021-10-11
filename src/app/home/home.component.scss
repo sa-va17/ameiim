@@ -1,0 +1,19 @@
+.view {
+    background: url("https://images.pexels.com/photos/3785931/pexels-photo-3785931.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")no-repeat center center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.navbar {
+    background-color: gold;
+}
+
+.top-nav-collapse {
+    background-color: gold;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: gold;
+    }
+}
