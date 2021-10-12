@@ -1,19 +1,75 @@
-.view {
-    background: url("https://images.pexels.com/photos/3785931/pexels-photo-3785931.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")no-repeat center center;
-    background-size: cover;
-    height: 50vh;
-}
+.header {
+    
+    
+    position: static;
+    background: #F6F4F2;
+    padding-left: auto;
+    padding-right: auto;
 
+
+}
 .navbar {
-    background-color: gold;
+    padding: 0px;
+    
+}
+.button-right {
+    float: right;
+    text-align: center;
+    padding-right: 50px;
 }
 
-.top-nav-collapse {
-    background-color: gold;
+.container-fluid {
+    background: #425664;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 12px;
 }
 
-@media only screen and (max-width: 768px) {
-    .navbar {
-        background-color: gold;
-    }
+
+
+.col-md-8 {
+    padding:12px;
+
+}
+.col-md-4 {
+    
+    padding:12px
+}
+
+.reg {
+    padding: 50px;
+}
+
+.col-md-8 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.container-fluid-2 {
+    background: white;
+}
+.outer-container {
+    padding-right: 100px;
+    padding-left: 100px;
+    background: #707980;
+}
+.content {
+    background: white;
+    padding-bottom: 20px;
+}
+
+.heading {
+    padding-top: 25px;
+    font-size: 80px;
+}
+
+.inner-column {
+    border-radius: 25px;
+    background: grey;
+    margin:20px
+}
+.section-title{
+    text-align: center;
+    
 }

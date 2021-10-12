@@ -1,74 +1,128 @@
-<header class="h-100">
-    <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark ie-nav fixed-top" [containerInside]="false">
-      <mdb-navbar-brand>
-        <a class="logo navbar-brand" href="#">
-          <img src= "src/assets/images/nitrr logo.png" height="25" alt="" >
-        </a>
-      </mdb-navbar-brand>
-      <links>
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active waves-light" mdbWavesEffect>
-            <a class="nav-link">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-
-            <!-- Dropdown -->
-        <li class="nav-item dropdown" dropdown>
-        <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
-             About<span class="caret"></span></a>
-            <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
-             <a class="dropdown-item waves-light" mdbWavesEffect href="#">Raipur</a>
-             <a class="dropdown-item waves-light" mdbWavesEffect href="#">NIT Raipur</a>
-             <a class="dropdown-item waves-light" mdbWavesEffect href="#">Mechanical Engineering Department</a>
-            <div class="divider dropdown-divider"></div>
-            <a class="dropdown-item waves-light" mdbWavesEffect href="#">Separated link</a>
-            </div>
-         </li>
-
-          <li class="nav-item waves-light" mdbWavesEffect>
-            <a class="nav-link">Profile</a>
-          </li>
-        </ul>
-      </links>
-    </mdb-navbar>
-    <!-- Main -->
-    <div class="view intro-2">
-      <div class="full-bg-img">
-        <div class="mask flex-center rgba-stylish-slight">
-          <div class="container text-center white-text wow fadeInUp">
-            <h2 style="text-align: right; font-family: 'Trebuchet MS',sans-serif; font-weight: 600;">AMEIIM-2022</h2>
-
-            <h5 style="font-family:'Gill Sans', sans-serif; text-align: right;">Advances in Mechanical Engineering,
-                 Industrial Informatics and Management</h5>
-                 <br>
-            <h6 style="text-align: right; font-family: Helvetica, sans-serif; font-size: large">Virutal Conference</h6>
-            <h4 style="font-family:  Optima, sans-serif; text-align: right;">Feburary 25th - 26th 2022</h4>    
+<div class="header">
+  <div class="header-top">
+    <div class="auto-container">
+      <div class = "row">
+        <div class="col-md-8">
+          <h6 style="font-family: 'Lucida Grande',sans-serif; color: #425664; padding-left: 20px; font-weight: 600;">
+            International Conference on <br>
+            Advances in Mechanical Engineering, Industrial Informatics and Management
+          </h6>
+        </div>
+        <div class="col-md-4"> 
+      <div class="button-right">
+        <button type="button" class="btn" style="background-color: #425664; color: white;" data-mdb-ripple-color="dark">Register</button>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+    </div>
+    
+    <div class="header-bottom">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" style="color: white;" href="#">AMEIIM</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" style="color: white;" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white;">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" style="color: white;" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" style="color: white;">Disabled</a>
+              </li>
+            </ul>
+            
           </div>
         </div>
-      </div>
+      </nav>
     </div>
-    <!-- /.Main -->
-</header>
-  <!--Main Navigation-->
 
-  <!--Main Layout-->
-  <main class="text-center py-5">
-
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-        <h2 class="indigo-text" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"> AMEIIM-2022
-            </h2>
-          <p style="text-align: justify;">On stepping into its successful 60th year, <em>Department of Mechanical Engineering</em> NIT Raipur proudly announces the organisation of its 1st International Conference on <em>Advances in Mechanical Engineering, Industrial Informatics and Management (AMEIIM-2022).</em>
-            This invitation is open for all academicians, research scholars, post-docs, PG and UG students functioning in the relevant areas. 
-            It also provides a premier interdisciplinary platform for researchers, practitioners and educators to present and discuss the most recent innovations, trends, and concerns as well as practical challenges encountered and solutions adopted in relevant areas.
-            The Conference will be held on <span class="red-text" style="font-weight:bold">25th - 26th Feburary, 2022.</span>
-        
-        </p>
+  <div class="container-fluid-2">
+    <div class="outer-container">
+      <div class=content>
+        <div class="heading">
+          <h1 style="text-align: center;padding-bottom: 12px; font-family:'Lucida Grande', sans-serif;">
+            AMEIIM-2022
+         
+          </h1>
+          <h5 style="text-align: center; padding-bottom: 10px;">Advances in Mechanical Engineering, Industrial Informatics and Management </h5>
+          
+          <h6 style="text-align: center;">Organised by:</h6>
+          <h4 style="text-align: center">Department of Mechanical Engineering, NIT Raipur</h4>
         </div>
       </div>
-    </div>
+      <div class="d-flex p-2"></div>
 
-  </main>
-  <!--Main Layout-->
+      <div class="content-2" style="background-color: white;">
+        <div class="row justify-content-center" >
+          <div class=" col-4">
+            <h3 style="padding-top: 50px; text-align: center;">ABOUT</h3>
+            <p style="text-align: justify;">
+              On stepping into its successful 60th year, Department of Mechanical Engineering, NIT Raipur is organizing its <em> 1st International Conference on Advances in Mechanical Engineering, 
+              Industrial Informatics and Management (AMEIIM-2022)</em> on <span style="font-weight: bold; color: red;">25th-26th February 2022</span> for
+              deliberating with distinguished experts in this field. This 
+              invitation is open for all academicians, research scholars, post-docs, PG and UG students functioning in the relevant 
+              areas. It also provides a premier interdisciplinary platform 
+              for researchers, practitioners and educators to present and discuss the most recent innovations, trends, and concerns as 
+              well as practical challenges encountered and solutions adopted in relevant areas.
+
+            </p>
+          </div>
+          <div class="content-2 col-4">
+            <div class="inner-column" style="padding-left:150px; padding-top: 50px;">
+              <div class="section-title">
+                <h3 style="padding-top: 
+                25px; padding-bottom: 25px;">Important Dates</h3>
+                <div class="text" id="rcorner1">
+                  <span>
+                    Last Date of Paper Submission:
+                  </span>
+                  <br>
+                  December 15th 2021
+                  <hr>
+                  <span>
+                    Final Acceptance Notification:
+                  </span>
+                  <br>
+                  January 15th 2022
+                  <hr>
+                  <span>
+                    Registration Start Date:
+                  </span>
+                  <br>
+                  January 15th 2022
+                  <hr>
+                  <span>Registration End Date:</span>
+                  <br>
+                  February 15th 2022
+                  <hr>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+
+
+    </div>
+    
+  </div>
