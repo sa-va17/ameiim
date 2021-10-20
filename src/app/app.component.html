@@ -1,2 +1,176 @@
-<app-home></app-home>
+<div class="header">
+    <div class="header-top" style="padding-top: 12px; padding-bottom: 12px;">
+      <div class="auto-container">
+        <div class = "row">
+          <div class="col-md-8">
+            <h6 style="font-family: 'Lucida Grande',sans-serif; color: #425664; padding-left: 20px; font-weight: 600;">
+              International Conference on <br>
+              Advances in Mechanical Engineering, Industrial Informatics and Management
+            </h6>
+          </div>
+          <div class="col-md-4"> 
+        
+          <div id="container" style="align-items: right;">
+            <button class="learn-more" (click)='onClick()'>
+              <span class="circle" aria-hidden="true">
+                <span class="icon arrow"></span>
+              </span>
+              <span class="button-text">Register</span>
+            </button>
+          </div>
+        
+        </div>
+        </div>
+        </div>
+        </div>
+      </div>
+  
+      <!--navigation bar-->
+      
+      <div class="header-bottom">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background:#425664 ;">
+          <div class="container-fluid">
+            <a class="navbar-brand" style="color: white;" routerLink="">AMEIIM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navigation-content">
+              <ul class="nav navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" style="color: white;" aria-current="page" routerLink="">
+                   
+                    Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" routerLink="call-for-paper" style="color: white;">Call for Papers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" style="color: white;" aria-current="page" routerLink="register">
+                    Registration
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <button class="dropbtn">Committee
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a routerLink="committee">Patron</a>
+                    <a href="organizing-committee">Organizing</a>
+                    <a href="advisory-committee">Advisory & Technical</a>
+                    
+                  </div>
+                </li>
+              
+                <li class="nav-item">
+                  <a class="nav-link active" style="color: white;" aria-current="page" routerLink="contact-us">Contact</a>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+        </nav>
+      </div>
+
+<div *ngIf = "showLoader" class="loader"></div>
 <router-outlet></router-outlet>
+
+
+<!-- Footer -->
+<footer class="text-center text-lg-start text-muted" style="padding-top: 35px; background: #425664;">
+  
+    <!-- Section: Links  -->
+    <section class="" id="footer-content" style="color: white;">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              AMEIIM
+            </h6>
+            <p style="text-align: left;">
+              AMEIIM-2022 provides a premier interdisciplinary platform for researchers, practitioners and educators to present and 
+              discuss the most recent innovations, trends, and concerns as 
+              well as practical challenges encountered and solutions adopted in relevant areas.
+            </p>
+          </div>
+          <!-- Grid column -->
+         
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4" id="primary">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4" style="text-align: center;">
+              Useful links
+            </h6>
+            <p style="text-align: center;">
+              <a href="call-for-paper" class="text-reset" style="text-decoration: none;">Call for Papers</a>
+            </p>
+            <p style="text-align: center; ">
+              <a href="register" class="text-reset" style="text-decoration: none;">Registration</a>
+            </p>
+            <p style="text-align: center; ">
+              <a href="committee" class="text-reset" style="text-decoration: none;">Committee</a>
+            </p>
+            <p style="text-align: center; ">
+              <a href="contact-us" class="text-reset" style="text-decoration: none;">Contact Us</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <div class="col-md-2 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              Contact
+            </h6>
+            <p style="text-align: left; padding-right:12px">
+              <i class="fas fa-phone-alt"></i>
+              Dr. Jagdish <span style="text-align: right;">+91-8811940517</span>
+              <br>
+              <hr>
+              <i class="fas fa-phone-alt"></i>
+              Dr. Suraj Kumar Mukti <span style="text-align: right;">+91-9302837666</span>
+              <br> <hr>
+              <i class="fas fa-phone-alt"></i>
+              Dr. N.V. Swamy Naidu <span style="text-align: right;">+91-9963390988</span>
+              <br>
+          
+          </div>
+         
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Address for Correspondence
+            </h6>
+            <p>Organizing Secretary AMEIIM-2022
+              <br>
+              Department of Mechanical Engineering
+              <br>
+              National Institute of Technology Raipur
+              <br>
+              G.E. Road, Raipur (CG)-492010
+            </p>
+            <a href="mailto: ameiim2021@gmail.com" style="color: white;">
+              <i class="fas fa-envelope me-3"></i>
+              ameiim2021@gmail.com
+            </a>
+          
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05); color:white">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="#">AMEIIM-2022</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  
+  

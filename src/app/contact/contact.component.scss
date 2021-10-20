@@ -1,0 +1,38 @@
+.heading {
+    font-weight: 650px;
+  margin: auto;
+    font-size: 30px;
+    text-align: center;
+    padding: 12px;
+}
+
+*a {
+    color:white
+}
+
+
+.col-sm-3 {
+    align-items: center;
+    text-align: center;
+    span {
+        font-weight: bold;
+    }
+}
+
+.container-fluid {
+    padding:12px;
+    align-items: center;
+
+    text-align: center;
+
+    h4 {
+        margin: 12px;
+        padding:8px;
+    }
+    p {
+        
+        margin: 12px;
+        padding:8px;
+    }
+
+}
