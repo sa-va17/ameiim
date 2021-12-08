@@ -8,22 +8,12 @@ import { OrgComComponent } from './committee/org-com/org-com.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
-
+import { PaperComponent } from './paper/paper.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent },
   {path:'committee', component: CommitteeComponent},
-
-    {
-      path:'organizing-committee', component: OrgComComponent,
-    },
-  
-    {
-      path: 'advisory-committee', component:AdvComComponent
-    },
-  
-  
-  
+  {path: 'submit-paper', component:PaperComponent},
   {path:'call-for-paper', component: CfpComponent},
   {path:'contact-us', component: ContactComponent},
   {path: 'register', component: RegisterComponent},
@@ -35,5 +25,5 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 export const routingComponents = [
-  HomeComponent, ContactComponent, CommitteeComponent, RegisterComponent, CfpComponent
+  HomeComponent, ContactComponent, CommitteeComponent, RegisterComponent, CfpComponent, PaperComponent
 ]

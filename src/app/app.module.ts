@@ -10,6 +10,7 @@ import { MdbCarouselModule }from 'mdb-angular-ui-kit/carousel';
 import { MdbDropdownModule } from 'mdb-angular-ui-kit/dropdown';
 import { OrgComComponent } from './committee/org-com/org-com.component';
 import { AdvComComponent } from './committee/adv-com/adv-com.component';
+import { PaperComponent } from './paper/paper.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { AdvComComponent } from './committee/adv-com/adv-com.component';
     routingComponents,
     OrgComComponent,
     AdvComComponent,
+    PaperComponent,
   
   ],
   imports: [

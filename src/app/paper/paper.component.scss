@@ -1,0 +1,29 @@
+
+.item {
+    list-style-type: none;
+}
+
+.num {
+    font-size: 50px;
+    font-family: 'Helvetica Neue', sans-serif;
+    border-radius: 20px 55px;
+    background: #425664;
+    color:white;
+   
+}
+
+a {
+    font-weight: 700;
+    text-decoration: none;
+    color: #425664;
+}
+
+a:link {
+    transition: color 0.5s, transform 0.5s;
+  }
+  a:visited {color: #425664;}
+  a:hover {
+    color: firebrick;
+    transform:scale(1.1);
+  }
+  a:active {color: #425664;}

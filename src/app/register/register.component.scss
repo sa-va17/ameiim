@@ -19,14 +19,14 @@ a {
 a:link {
     transition: color 0.5s, transform 0.5s;
   }
-  a:visited {color: black;}
+  a:visited {color: #425664;}
   a:hover {
     color: firebrick;
     transform:scale(1.1);
   }
   a:active {color: #425664;}
 
-
+//----------------------------END --------------------------------//
 figure img{
     margin-left: 40px;
     margin-right: 40px;
