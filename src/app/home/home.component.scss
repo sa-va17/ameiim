@@ -11,13 +11,22 @@ h3{
     margin-bottom:50px;
 }
 
+
 #table{
-    width: fit-content
+    width: auto;
+    height: auto;
+    margin: auto 10px;
 }
 
 
+.content {
+    margin: auto;
+    padding: 25px 8px;
+}
+
 
 .table-content {
+    margin: auto;
     border-radius: 25px;
     background: #425664;
     padding:20px;

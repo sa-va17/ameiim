@@ -9,6 +9,18 @@
 
 }
 
+@media (max-width: 1000px){
+  header {
+    flex-direction: column;
+
+    align-items: flex-start;
+  }
+}
+
+
+
+
+
 .navbar {
   padding:8px;
   
@@ -164,8 +176,17 @@ body {
   padding: 50px 0;
 }
 
+.navbar {
+  display: flex;
+
+  justify-content: space-between;
+
+}
+
 .nav {
   
+  display: flex;
+  font-size: 50%;
   text-transform: uppercase;
   text-align: center;
   font-weight: 400;
@@ -286,6 +307,8 @@ body {
   opacity: 1;
 }
 
+///////////////////
+
 
 
 
@@ -313,7 +336,6 @@ body {
   display: flex;
   justify-content: center;
 }
-
 
 //{
 .loader  {
@@ -343,7 +365,6 @@ body {
 }
 
 //}
-
 
 @keyframes rotate {
   0% { 
